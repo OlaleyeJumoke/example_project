@@ -46,7 +46,7 @@ class _PageOneState extends State<PageOne> {
                       alignment: Alignment.center,
                       child:  Text(
                         data.data.memes[index].name,
-                        style: TextStyle(
+                        style:const TextStyle(
                             color: Colors.green, fontWeight: FontWeight.w700),
                       ),
                     ),
